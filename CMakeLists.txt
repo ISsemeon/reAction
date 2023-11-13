@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(QtApplicationTemplate)
+project(ReAction)
 
 option(ADD_GUI "Build the gui for convertor library" ON)
 option(ADD_LIB_EXAMPLES "Build the examples of covertor usage" off)
-
 
 set (DEST_DIR ${CMAKE_BINARY_DIR}/Bin)
 
